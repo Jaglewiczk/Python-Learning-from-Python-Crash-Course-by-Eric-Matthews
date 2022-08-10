@@ -30,7 +30,7 @@ print(guest_list[0] + ", zapraszam na obiad!")
 print(guest_list[1] + ", zapraszam na obiad!")
 
 print(guest_list)
-
+print("Liczba osób zaproszonych na obiad to: " + str(len(guest_list)))
 del guest_list[0]
 del guest_list[0]
 print(guest_list)
