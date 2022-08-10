@@ -1,0 +1,13 @@
+cars = ["Bugatti", "Audi", "Mercedes", "Volkswagen"]
+print("Oto lista początkowa:")
+print(cars)
+print("Oto lista posortowana:")
+print(sorted(cars))
+print(cars)
+cars.sort()
+print(cars)
+cars.sort(reverse=True)
+print(cars)
+cars.reverse()
+print(cars)
+print(len(cars))
