@@ -25,3 +25,12 @@ uninvited_guest3 = guest_list.pop(0)
 print("Niestety, nie udało sięprzygotować stołu. Muszę odwołać Twoje zaproszenie, przepraszam " + uninvited_guest3)
 uninvited_guest4 = guest_list.pop(1)
 print("Niestety, nie udało sięprzygotować stołu. Muszę odwołać Twoje zaproszenie, przepraszam " + uninvited_guest4)
+
+print(guest_list[0] + ", zapraszam na obiad!")
+print(guest_list[1] + ", zapraszam na obiad!")
+
+print(guest_list)
+
+del guest_list[0]
+del guest_list[0]
+print(guest_list)
