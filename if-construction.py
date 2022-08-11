@@ -23,6 +23,9 @@ else:
 
 print(authorized_users)
 
+print("Mateusz" in authorized_users)
+print("Karol" in authorized_users)
+
 
 
   
