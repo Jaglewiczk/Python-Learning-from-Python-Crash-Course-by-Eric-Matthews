@@ -13,10 +13,17 @@ if user.title() not in authorized_users and user.title() in banned_users:
     print(f"Drogi/a {user}, nie możesz założyć konta")  
 elif user.title() not in authorized_users:
     print(f"Drogi/a {user}, załóż proszę konto!")
+    new_user = input(f"Wpisz swoje imię: ")
+    new_user = new_user.title()
+    authorized_users.append(new_user)
 elif user.title() in authorized_users:
     print(f"Witaj {user}!")
 else:
     print(f"Witaj {user}, załóż konto!")
+
+print(authorized_users)
+
+
 
   
 
