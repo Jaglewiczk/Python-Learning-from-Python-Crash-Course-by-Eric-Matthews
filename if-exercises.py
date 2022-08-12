@@ -33,4 +33,22 @@ if "apple" in fruits:
     print("You really like apples!")
 if "blueberry" in fruits:
     print("You really like blueberries!")
+for fruit in fruits:
+    print(f"I'm adding {fruit} to your fruit salad!")
+print("Your fruit salad is ready!")
+for fruit in fruits:
+    if fruit == "apple":
+        print(f"Sorry, we don't have {fruit}, please choose another ingredient!")
+    else:
+        print(f"Adding {fruit} to your fruit salad!")
+print("Your salad is ready!")
+
+fruits = []
+
+if fruits:
+    for fruit in fruits:
+        print(f"Dodaję {fruit} do sałatki!")
+    print("Twoja sałatka jest gotowa")
+else:
+    print(f"Czy jesteś pewien, że chcesz zamówić sałatkę bez składników? :D")
 
