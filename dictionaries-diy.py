@@ -9,4 +9,8 @@ print(f"Ulubiona liczba Andrzeja to {fav_numbers['Andrzej']}")
 
 glosariusz = {"iteracja": "iteracja to przechodzenie przez pętlę na pewnych warunkach", "słownik": "para wartość-klucz"}
 print(f"Iteracja: {glosariusz['iteracja'].capitalize()}")
-print(f"Słównik: {glosariusz['słownik'].capitalize()}")
+print(f"Słownik: {glosariusz['słownik'].capitalize()}")
+
+for key, value in karols_data.items():
+    print(f"Klucz: {key}")
+    print(f"Wartość: {value}")

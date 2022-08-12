@@ -36,3 +36,10 @@ alien_0["z position"] = 23
 third_position = alien_0.get("z position", "Nie jest przypisana pozycja z!")
 print(third_position)
 
+for name, favourite_language in favourite_languages.items():
+    print(f"Ulubionym językiem programowania {name} jest {favourite_language}")
+
+for name in favourite_languages.keys():    # może być bez .keys!!! Szukanie po kluczach jest domyślne.
+    print(name.title())
+
+
